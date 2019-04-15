@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"#minecraft:flower_pots",
+	"minecraft:lily_pad",
+	"#minecraft:glass_panes",
+	"#minecraft:wooden_doors",
+	"#minecraft:trap_doors"
+  ]
+}

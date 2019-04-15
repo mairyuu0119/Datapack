@@ -1,12 +1,13 @@
   
 # Guns In Minecraft  
   
-Minecraftの「人参付きの棒」から発砲できるようにします。
+Guns In Minecraftは、Minecraftのアイテム「人参付きの棒」から発砲が可能になる同ゲーム用データパックです。
 
 ## くわしく  
-このリポジトリはMinecraft 1.13.2用のデータパックです。データパックには.mcmeta, .json, .mcfunctionファイルが含まれています。
-このデータパックは未完成です。Contributer大歓迎。  
-最終的には自分が作る予定の配布マップに流用できるようなモノを作りたいので目標はこんなかんじです。
+このリポジトリはMinecraft 1.13.2用のデータパックです。データパックには.mcmeta, .json, .mcfunctionファイルが含まれており、特に.mcfunctionファイルはMinecraftにおける「コマンド」を列挙し一度に実行できる非常におもしろいモノです。興味のある方は[こちら](https://hollys-command-lecture.hatenablog.com/entry/how-to-function)を閲覧してください。
+また、このデータパックは未完成です。
+
+最終目標は別の配布ワールドにそのまま流用できる形のものであり、つまり以下の条件を満たすことです。
 
 ・右クリックで弾がでる ✔  
 ・ブロックに衝突で弾が止まる ✔  

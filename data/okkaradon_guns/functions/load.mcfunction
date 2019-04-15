@@ -1,7 +1,7 @@
 scoreboard objectives add RClick minecraft.used:minecraft.carrot_on_a_stick
-scoreboard objectives add y_mod dummy "decimal y position in block multiplied by 1000"
-scoreboard objectives add y dummy "y"
-scoreboard objectives add constant dummy "constant"
+scoreboard objectives add y_mod dummy
+scoreboard objectives add y dummy
+scoreboard objectives add constant dummy
 scoreboard players set #1000 constant 1000
 
 

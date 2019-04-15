@@ -3,12 +3,9 @@
   "values": [
     "#minecraft:wooden_doors",
 	"#minecraft:fence_gates",
-	"#minecraft:slabs",
 	"#minecraft:trap_doors",
 	"#minecraft:fences",
-	"#minecraft:glass",
 	"#minecraft:glass_panes",
-	"minecraft:snow",
 	"minecraft:water",
 	"minecraft:lava",
 	"minecraft:nether_brick_fence",

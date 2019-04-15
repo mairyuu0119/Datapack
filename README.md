@@ -1,7 +1,7 @@
   
 # Guns In Minecraft  
   
-Guns In Minecraftは、Minecraftのアイテム「人参付きの棒」から発砲が可能になる同ゲーム用データパックです。
+Guns In Minecraftは、PC向けサンドボックスゲーム「Minecraft」のアイテム「人参付きの棒」から発砲が可能になる同ゲーム用データパックです。
 
 ## くわしく  
 このリポジトリはMinecraft 1.13.2用のデータパックです。データパックには.mcmeta, .json, .mcfunctionファイルが含まれており、特に.mcfunctionファイルはMinecraftにおける「コマンド」を列挙し一度に実行できる非常におもしろいモノです。興味のある方は[こちら](https://hollys-command-lecture.hatenablog.com/entry/how-to-function)を閲覧してください。

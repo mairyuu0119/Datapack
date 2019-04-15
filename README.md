@@ -15,6 +15,8 @@ Guns In Minecraftは、PC向けサンドボックスゲーム「Minecraft」の�
 ・リコイルパターン ✖  
 ・人参付きの棒のダメージ量に応じた複数のタイプの銃の追加(スナイパー/ライフル など) ✖  
 ・敵mob vs プレイヤー, プレイヤー vs プレイヤーなど汎用性のあるデータパックにする ✖  
+## GIF
+![x7rb5-rdeln](https://user-images.githubusercontent.com/49260133/56112137-1a72ae80-5f95-11e9-9004-8ea78df53c88.gif)
 
 ## だうんるぉーど  
 ここ  

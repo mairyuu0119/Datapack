@@ -1,0 +1,2 @@
+execute as @s at @s if block ~ ~ ~ #slabs[type=bottom] if entity @s[scores={y_mod=500..}] run tag @s add move
+execute as @s at @s if block ~ ~ ~ #slabs[type=top] if entity @s[scores={y_mod=..500}] run tag @s add move

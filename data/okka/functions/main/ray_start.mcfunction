@@ -2,7 +2,9 @@
 playsound okka:guns.ar master @a ~ ~ ~ 0.7 1 1
 
 #playsound minecraft:block.coral_block.break master @s ~ ~ ~ 0.5 1.5 0
-scoreboard players remove @s ammo_per_click 1
+scoreboard players remove @s ammo_remaining 1
+scoreboard players operation @s ammo_delay = @s firedelay
+
 #前のtickのrayを削除
 kill @e[type=area_effect_cloud,tag=ray]
 

@@ -1,4 +1,3 @@
-#このfunctionにはJamesClanevansさんの制作物を使用しています　https://www.reddit.com/user/JamesClanevans　
 execute as @s store result score @s x_mod run data get entity @s Pos[0] 1000
 execute as @s store result score @s x run data get entity @s Pos[0]
 execute as @s store result score @s y_mod run data get entity @s Pos[1] 1000
@@ -20,3 +19,4 @@ execute as @s run scoreboard players operation @s z /= #1000 constant
 execute as @s if entity @s at @s if block ~ ~ ~ snow run function okka:main/test_block/snow
 execute as @s if entity @s at @s if block ~ ~ ~ #slabs run function okka:main/test_block/slabs
 execute as @s if entity @s at @s if block ~ ~ ~ #stairs run function okka:main/test_block/stairs
+execute as @s if entity @s at @s if block ~ ~ ~ #walls run function okka:main/test_block/walls

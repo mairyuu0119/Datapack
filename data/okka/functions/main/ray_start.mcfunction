@@ -1,7 +1,5 @@
 #playsound minecraft:block.coral_block.break block @a ~ ~ ~ 0.5 2 0.1
-playsound minecraft:entity.sheep.shear master @a ~ ~ ~ 0.5 2 0
-playsound minecraft:block.lever.click master @a ~ ~ ~ 0.3 0.5 0
-playsound minecraft:item.firecharge.use master @a ~ ~ ~ 0.1 2 0
+playsound okka:guns.ar master @a ~ ~ ~ 0.7 1 1
 #playsound minecraft:block.coral_block.break master @s ~ ~ ~ 0.5 1.5 0
 scoreboard players remove @s ammo_per_click 1
 #前のtickのrayを削除

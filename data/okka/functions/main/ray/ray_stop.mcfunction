@@ -1,0 +1,1 @@
+execute unless entity @s[tag=move] as @s at @s run particle cloud ~ ~ ~ 0 0 0 0 1 force

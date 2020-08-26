@@ -20,3 +20,5 @@ execute as @s if entity @s at @s if block ~ ~ ~ snow run function okka:main/ray/
 execute as @s if entity @s at @s if block ~ ~ ~ #slabs run function okka:main/ray/test_block/slabs
 execute as @s if entity @s at @s if block ~ ~ ~ #stairs run function okka:main/ray/test_block/stairs
 execute as @s if entity @s at @s if block ~ ~ ~ #walls run function okka:main/ray/test_block/walls
+
+execute unless entity @s[tag=move] as @s at @s run tag @s add blockstop

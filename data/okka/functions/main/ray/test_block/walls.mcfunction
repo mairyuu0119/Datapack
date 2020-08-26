@@ -12,5 +12,5 @@ execute as @s at @s if block ~ ~ ~ #walls[east=tall] if entity @s[scores={x_mod=
 execute as @s at @s if block ~ ~ ~ #walls[west=tall] if entity @s[scores={x_mod=0..688, z_mod=313..688}] run tag @s add blockstop
 
 
-execute unless entity @s[tag=blockstop] as @s at @s run tag @s add move
+execute unless entity @s[tag=blockstop] run tag @s add move
 tag @s remove blockstop

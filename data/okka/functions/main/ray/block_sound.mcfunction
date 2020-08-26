@@ -1,1 +1,2 @@
-#execute at @s if block ~ ~ ~ #minecraft:wooden_doors run playsound minecraft:entity.zombie.destroy_egg block @a ~ ~ ~ 1 0 1
+playsound minecraft:block.wood.break block @a ~ ~ ~ 2
+say a

@@ -1,7 +1,5 @@
-#playsound minecraft:block.coral_block.break block @a ~ ~ ~ 0.5 2 0.1
-playsound okka:guns.ar master @a ~ ~ ~ 0.7 1 1
+function okka:main/ray/ray_shotsound
 
-#playsound minecraft:block.coral_block.break master @s ~ ~ ~ 0.5 1.5 0
 scoreboard players remove @s ammo_remaining 1
 scoreboard players operation @s ammo_delay = @s firedelay
 
@@ -14,6 +12,9 @@ tp @e[tag=ray,limit=1,sort=nearest] @s
 
 #@sの目線の高さにtp
 execute anchored eyes run tp @e[tag=ray,limit=1,sort=nearest] ^ ^ ^
+
+#rayの設定
+scoreboard players operation @e[tag=ray,limit=1,sort=nearest] weapon_type = @s weapon_type
 
 #ray_move 呼び出し
 execute as @e[tag=ray,limit=1,sort=nearest] at @s run function okka:main/ray/ray_move

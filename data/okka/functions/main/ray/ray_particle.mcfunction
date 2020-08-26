@@ -1,0 +1,2 @@
+execute if entity @s[scores={weapon_type=1}] run particle minecraft:dust 0.9 0.9 0.9 1.3 ~ ~ ~ 0 0 0 0 1
+execute if entity @s[scores={weapon_type=2}] run particle minecraft:end_rod ~ ~ ~ 0 0 0 0 0 force
